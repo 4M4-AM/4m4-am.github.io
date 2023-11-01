@@ -14,15 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: 4M4
+subtitle: Digital transformation best practices, success stories, and curated content
+name: 4M4
+logo: /assets/images/4m4-88x88.png
 email: antonio@4m4.it
 description: >- # this means to ignore newlines until "baseurl:"
   This is the 4M4 sole proprietorship of Antonio Montano website which publishes
-  articles about best practices, success stories, and curated content. Follow me 
-  on LinkedIn and Twitter
+  articles about digital transformation best practices, success stories, and curated content. 
+  Follow me on LinkedIn and Twitter
 twitter_username: antomon
 github_username: antomon
 minimal_mistakes_skin: neon
 search: true
+breadcrumbs: true
+read_time: true
+words_per_minute: 200
 
 # Build settings
 markdown: kramdown
@@ -96,6 +102,7 @@ defaults:
       comments: true
       share: true
       related: true
+      toc: true
   # _pages
   - scope:
       path: "_pages"
@@ -110,3 +117,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+comments:
+  provider: disqus
+  disqus:
+    shortname: 4m4
