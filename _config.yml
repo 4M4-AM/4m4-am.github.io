@@ -75,7 +75,7 @@ author:
 footer:
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fa fa-fw fa-linkedin-square"
       url: https://www.linkedin.com/in/montano/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
