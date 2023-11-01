@@ -63,7 +63,7 @@ author:
   bio    : "Tech enthusiast"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-linkedin-square"
       url: https://www.linkedin.com/in/montano/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
